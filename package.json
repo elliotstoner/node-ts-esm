@@ -1,0 +1,19 @@
+{
+  "name": "node-ts-esm-template",
+  "version": "1.0.0",
+  "main": "src/index.ts",
+  "devDependencies": {
+    "@types/lodash": "^4.14.191",
+    "typescript": "^4.9.4"
+  },
+  "scripts": {
+    "build": "tsc"
+  },
+  "type": "module",
+  "author": "Elliot Stoner",
+  "license": "MIT",
+  "description": "A template Node.js project with Typescript and ESM support. Bonus: VSCode debugging",
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}
